@@ -16,6 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build":"build",
     "dev": "concurrently \"cd ../check-in-api && npm run start\" \"npm run start\""
   },
   "eslintConfig": {
