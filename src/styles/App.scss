@@ -1,0 +1,26 @@
+@import './reset..scss';
+@import './Login.scss';
+@import './Home.scss';
+@import './Navigation.scss';
+@import './Tobar.scss';
+* {
+  box-sizing: border-box;
+  user-select: none;
+  &:focus{
+    outline: none;
+
+  }
+  
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    background:#222;
+}
+html{
+
+   
+}
+p {
+  font-size: 1.2rem;
+}

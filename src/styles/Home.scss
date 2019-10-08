@@ -1,0 +1,29 @@
+.home{
+    padding:20rem;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    color:white;
+  
+   
+    p{
+        
+        animation: fadeIn 2s;
+    }
+    .logo{
+        animation: fadeIn 4s;
+        width:500px;
+    }
+    .title{
+        animation: fadeIn 5s;
+        font-family: "Indie Flower", cursive;
+    }
+}
+*{
+    overflow:hidden;
+}
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

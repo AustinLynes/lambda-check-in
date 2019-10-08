@@ -1,0 +1,27 @@
+.top-bar {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #135;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  .title {
+    margin: 0;
+    font-family: "Indie Flower", cursive;
+    align-self: center;
+    padding: 5px 25px 5px 15px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1.6rem;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .logo {
+    background: lighten(#135, 5%);
+    border-radius: 10px;
+    img {
+      width: 95px;
+      padding: 1rem;
+      cursor: pointer;
+    }
+  }
+}
